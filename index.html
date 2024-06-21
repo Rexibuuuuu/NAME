@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<div class="registration_form">
+	<h1>РЕГИСТРАЦИЯ</h1>
+	<div class="registration">
+		<div class="column">
+		<input type="text" id="second_name" placeholder="фамилия" required>
+		<input type="text" id="name" placeholder="имя" required>
+		<input type="text" id="last_name" placeholder="отчество">
+		</div>
+
+		<div class="column">
+		<input type="email" id="email" placeholder="e-mail" required>
+		<input type="password" id="password" placeholder="пароль" required>
+		<input type="password" id="repeat_password" placeholder="повтор пароля" required>
+		</div>
+	</div>
+	<button id="next_btn" onclick="return CheckData(event)">ДАЛЕЕ</button>
+
+	<script src="script.js"></script>
+</div>
+</body>
+</html>
